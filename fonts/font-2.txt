@@ -1,0 +1,74 @@
+<style>
+@import "http://webfonts.ru/import/scada.css";
+@import "http://webfonts.ru/import/roboto.css";
+body {
+	background-color: rgba(255,255,255,1);
+}
+.block1 {
+	background-color: ;
+	color: rgba(51,51,51,1);
+	font-family: 'Scada';
+	font-size: 62px;
+	font-weight: 400;
+	line-height: 1em;
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+	padding: 0px 0px 36px 0px;
+	width: 700px;
+}
+.block2 {
+	background-color: ;
+	color: rgba(51,51,51,1);
+	font-family: 'Garamond';
+	font-size: 18px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1.5em;
+	margin: 0px 0px 20px 0px;
+	width: 700px;
+}
+.block3 {
+	color: rgba(78,78,78,1);
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.6em;
+	width: 700px;
+}
+.block4 {
+	color: rgba(102,102,102,1);
+	font-family: 'Georgia';
+	font-size: 19px;
+	font-weight: 400;
+	font-style: italic;
+	line-height: 1.6em;
+	margin: 30px 0px 30px 0px;
+	padding: 15px 0px 15px 0px;
+	border-top: 1px solid rgba(51,51,51,1);
+	border-bottom: 1px solid rgba(51,51,51,1);
+	width: 700px;
+}
+.block5 {
+	color: rgba(78,78,78,1);
+	font-family: 'Roboto';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.6em;
+	width: 700px;
+}
+</style>
+<div class="block1">
+	Искусство древнего Китая
+</div>
+<div class="block2">
+	Традиционная китайская живопись существенно отличается от западной. По форме она близка к европейскому импрессионизму - с той только разницей, что существовала уже за много веков до появления последнего. Картина - это иной мир, где трава может быть черной, а лица людей - красными.
+</div>
+<div class="block3">
+	Но все вместе, в едином контексте смотрится органично, художник видит гармоничное слияние человеческого и природного. Китайская живопись движется от сложного к простому. Если рисуется рыба, то чистое пространство вокруг обозначает воду, при рисовании горы чистое пространство может превратиться в облако. Традиционная живопись стремится к монохромному, одноцветному полотну, полагая, в духе даосских представлений, что пять цветов слепят человека.
+</div>
+<div class="block4">
+	Имеется в виду, что изобилие внешних красот может отвлечь от красоты внутренней, подлинной. Обычно картины пишутся как бы на одном дыхании, не отрываясь. Часто люди по нескольку дней не отходят от полотна. И лишь закончив картину в целом, художник может вернуться к ней позже и уточнить детали. На китайских картинах, как правило, присутствуют иероглифы.
+</div>
+<div class="block5">
+	Это название картины, имя автора и личная печать художника. Без личной печати картина считается незаконченной. Очень часто картина украшается стихами из традиционной китайской поэзии, подходящими по настроению или по мысли, а также философскими изречениями.
+</div>

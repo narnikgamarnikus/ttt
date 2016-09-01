@@ -1,0 +1,1460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--meta tag css link-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--favicon-->
+    <link rel="icon" href="images/fevicon.ico" type="image/x-icon">
+    <!--title-->
+    <title>Directory | Google Map</title>
+    <link rel="stylesheet" type="text/css" href="css/roboto.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/material.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.min.css">
+    <link href="css/bootstrap-material-design.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/material-design-icon.css">
+    <link rel="stylesheet" type="text/css" href="css/ripples.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!--leftmenu-->
+    <link rel="stylesheet" type="text/css" href="css/leftmenu.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css">
+    <!--tooltip-->
+    <link rel="stylesheet" type="text/css" href="css/tooltip/html5tooltips.css">
+    <link rel="stylesheet" type="text/css" href="css/tooltip/html5tooltips.animation.css">
+    <!--owl carousel css links-->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+    <link rel="stylesheet" type="text/css" href="css/directory.css">
+    <link rel="stylesheet" type="text/css" href="css/red-color.css">
+    <link rel="stylesheet" type="text/css" href="css/googlemap.css">
+</head>
+
+<body>
+    <!--Left Menu Button-->
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper">
+            <ul class="nav sidebar-nav">
+                <li class="profile-box">
+                    <div class="sidebar-brand">
+                        <img src="images/userprofile.png" class="img-responsive profile" alt="userprofile">
+                        <a href="googlemap.html#" class="profile-name">
+                            Kenneth Hanson
+                        </a>
+                        <a href="googlemap.html#" class="user">
+                            username@gmail.com
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            <h3 class="plan-types">Choose Category</h3>
+            <ul class="nav sidebar-nav">
+                <li></li>
+                <li>
+                    <a href="real_estate_gridlist.html" class="plan-a">Real Estate</a>
+                </li>
+                <li>
+                    <a href="automotive_gridlist.html" class="plan-a">Automotive</a>
+                </li>
+                <li>
+                    <a href="restaurant_gridlist.html" class="plan-a">Restaurant</a>
+                </li>
+                <li>
+                    <a href="job_gridlist.html" class="plan-a">Jobs</a>
+                </li>
+                <li>
+                    <a href="shopping_gridlist.html" class="plan-a">Shopping</a>
+                </li>
+                <li>
+                    <a href="hotels_travel_gridlist.html" class="plan-a">Hotels &amp; Travel</a>
+                </li>
+                <li>
+                    <a href="pets_gridlist.html" class="plan-a">Pets</a>
+                </li>
+                <li class="search-div-pad">
+                    <a href="services_gridlist.html" class="plan-a">Services</a>
+                </li>
+            </ul>
+            <h3 class="drop-search">Search</h3>
+            <div class="bar-adj">
+                <div class="form-group label-floating is-empty typeandsearch">
+                    <label for="typeforemail" class="control-label">Type and hit Enter...</label>
+                    <input type="text" id="typeforemail" class="form-control">
+                    <span class="material-input"></span></div>
+            </div>
+            <i class="mdi-navigation-arrow-back back-icon"></i>
+        </nav>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!--wrapper -->
+    <!--Left Menu Button end-->
+    <!--header section-->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-links" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="nav-expander" class="hamburger is-closed" data-toggle="offcanvas">
+                        <i class="mdi-navigation-menu menu-icon"></i>
+                    </a>
+                    <a href="about.html">
+                        <img src="images/logo.png" alt="logo" class="global-logo">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav-links">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="dropdown mega-dropdown">
+                            <a href="googlemap.html#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+                            <ul class="dropdown-menu mega-dropdown-menu row text-center">
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">Categories</li>
+                                        <li>
+                                            <a href="real_estate_gridlist.html">Real Estates</a>
+                                        </li>
+                                        <li>
+                                            <a href="automotive_gridlist.html">Automotive</a>
+                                        </li>
+                                        <li>
+                                            <a href="restaurant_gridlist.html">Restaurant</a>
+                                        </li>
+                                        <li>
+                                            <a href="job_gridlist.html">Jobs</a>
+                                        </li>
+                                        <li>
+                                            <a href="shopping_gridlist.html">Shopping</a>
+                                        </li>
+                                        <li>
+                                            <a href="hotels_travel_gridlist.html">Hotels & Travel</a>
+                                        </li>
+                                        <li>
+                                            <a href="pets_gridlist.html">Pets</a>
+                                        </li>
+                                        <li>
+                                            <a href="services_gridlist.html">Services</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">About Us</li>
+                                        <li>
+                                            <a href="about.html#company">About Our Company</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html#features">Features</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html#catalog">Agents</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html#customer">Customers</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html#pricing">Pricing Plans</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">Short Codes</li>
+                                        <li>
+                                            <a href="styles.html#typography">Typography</a>
+                                        </li>
+                                        <li>
+                                            <a href="styles.html#section">Colors of section</a>
+                                        </li>
+                                        <li>
+                                            <a href="styles.html#button">Buttons</a>
+                                        </li>
+                                        <li>
+                                            <a href="styles.html#elements">Form Elements</a>
+                                        </li>
+                                        <li>
+                                            <a href="not_found.html">404 page</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="col-sm-3">
+                                    <ul>
+                                        <li class="dropdown-header">Contacts</li>
+                                        <li>
+                                            <a href="contacts.html#contact">Contact Information</a>
+                                        </li>
+                                        <li>
+                                            <a href="contacts.html#network">Social Networks</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="googlemap.html#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Categories</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="real_estate_gridlist.html">Real Estates</a>
+                                </li>
+                                <li>
+                                    <a href="automotive_gridlist.html">Automotive</a>
+                                </li>
+                                <li>
+                                    <a href="restaurant_gridlist.html">Restaurant</a>
+                                </li>
+                                <li>
+                                    <a href="job_gridlist.html">Jobs</a>
+                                </li>
+                                <li>
+                                    <a href="shopping_gridlist.html">Shopping</a>
+                                </li>
+                                <li>
+                                    <a href="hotels_travel_gridlist.html">Hotels & Travel</a>
+                                </li>
+                                <li>
+                                    <a href="pets_gridlist.html">Pets</a>
+                                </li>
+                                <li>
+                                    <a href="services_gridlist.html">Services</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="news.html">News</a>
+                        </li>
+                        <li>
+                            <a href="contacts.html">Contact Us</a>
+                        </li>
+                        <li class="dropdown active">
+                            <a href="googlemap.html#" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Filter</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="googlemap.html">Google Map</a>
+                                </li>
+                                <li>
+                                    <a href="googlemap_full.html">Google Full Map</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <button class="btn btn-default hidden-xs menu-plus-btn" data-tooltip="Add New Offer" data-tooltip-stickto="bottom" data-tooltip-color="#313539" data-tooltip-animate-function="foldin"><i class="mdi-content-add plus-btn-icon"></i></button>
+                        </li>
+                        <li class="dropdown hidden-xs">
+                            <a href="googlemap.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="mdi-navigation-more-vert menu-icon2"></i></a>
+                            <ul class="menu toggle-menu-possition">
+                                <li class="drop li-h">
+                                    <a href="googlemap.html#" class="icon-centent"><i class="mdi-social-person menu-i"></i>My Account</a>
+                                </li>
+                                <li class="drop li-h">
+                                    <a href="googlemap.html#" class="icon-centent"><i class="material-icons menu-i">favorite</i>Favorites (6)</a>
+                                </li>
+                                <li class="drop li-h">
+                                    <a href="googlemap.html#" class="icon-centent"><i class="material-icons menu-i">layers</i>Compare List (2)</a>
+                                </li>
+                                <li class="drop li-h">
+                                    <a href="googlemap.html#" class="icon-centent"><i class="mdi-image-brightness-5 menu-i"></i>Settings</a>
+                                </li>
+                                <li class="drop li-h">
+                                    <a href="googlemap.html#" class="icon-centent"><i class="mdi-navigation-arrow-back menu-i"></i>LOGOUT</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </header>
+    <!--header section end-->
+    <!--google map start-->
+    <!-- section Map -->
+    <section>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+        <!-- contents -->
+        <div id="c5-map_canvas" class="sa-big-map" style="height: 640px; width: 100%;">
+            <script type="text/javascript">
+            function init_map() {
+                var myOptions = {
+                    zoom: 11,
+                    center: new google.maps.LatLng(40.6700, -73.9400),
+                    navigationControl: true,
+                    mapTypeControl: true,
+                    scaleControl: true,
+                    draggable: true,
+                    styles: [{
+                        "featureType": "administrative",
+                        "elementType": "labels.text.fill",
+                        "stylers": [{
+                            "color": "#444444"
+                        }]
+                    }, {
+                        "featureType": "administrative.country",
+                        "elementType": "all",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    }, {
+                        "featureType": "administrative.country",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "visibility": "on"
+                        }]
+                    }, {
+                        "featureType": "landscape",
+                        "elementType": "all",
+                        "stylers": [{
+                            "color": "#f2f2f2"
+                        }]
+                    }, {
+                        "featureType": "poi",
+                        "elementType": "all",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    }, {
+                        "featureType": "road",
+                        "elementType": "all",
+                        "stylers": [{
+                            "saturation": -100
+                        }, {
+                            "lightness": 45
+                        }]
+                    }, {
+                        "featureType": "road",
+                        "elementType": "geometry.fill",
+                        "stylers": [{
+                            "color": "#f6ce8e"
+                        }]
+                    }, {
+                        "featureType": "road.highway",
+                        "elementType": "all",
+                        "stylers": [{
+                            "visibility": "simplified"
+                        }]
+                    }, {
+                        "featureType": "road.arterial",
+                        "elementType": "labels.icon",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    }, {
+                        "featureType": "transit",
+                        "elementType": "all",
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
+                    }, {
+                        "featureType": "water",
+                        "elementType": "all",
+                        "stylers": [{
+                            "color": "#c4dbe4"
+                        }, {
+                            "visibility": "on"
+                        }]
+                    }],
+
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                map = new google.maps.Map(document.getElementById("c5-map_canvas"), myOptions);
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    icon: 'images/icons/icon-real.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6600, -73.8300),
+                    icon: 'images/icons/icon-auto.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.7400, -73.6400),
+                    icon: 'images/icons/icon-rest.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6700, -73.8800),
+                    icon: 'images/icons/icon-serv.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6500, -73.6100),
+                    icon: 'images/icons/icon-shop.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6300, -73.7000),
+                    icon: 'images/icons/icon-job.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.7500, -73.8400),
+                    icon: 'images/icons/icon-hotel.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.7700, -73.9400),
+                    icon: 'images/icons/icon-pets.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6700, -74.1000),
+                    icon: 'images/icons/icon-hotel.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6900, -74.1400),
+                    icon: 'images/icons/icon-pets.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.7000, -74.2000),
+                    icon: 'images/icons/icon-job.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.7100, -74.1000),
+                    icon: 'images/icons/icon-shop.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6000, -74.3000),
+                    icon: 'images/icons/icon-serv.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6100, -74.1100),
+                    icon: 'images/icons/icon-rest.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6000, -74.2100),
+                    icon: 'images/icons/icon-auto.png'
+                });
+                marker = new google.maps.Marker({
+                    map: map,
+                    position: new google.maps.LatLng(40.6700, -73.7400),
+                    icon: 'images/icons/icon-real.png'
+                });
+            }
+
+            google.maps.event.addDomListener(window, 'load', init_map);
+            </script>
+        </div>
+        <!-- ./contents -->
+    </section>
+    <!-- section Map -->
+    <!--googlemap closed-->
+    <!--google-input start-->
+    <section>
+        <div class="container google-input">
+            <div class="row">
+                <div class="col-md-2 cls cls1">
+                    <div class="form-group label-floating is-empty">
+                        <label for="firstname1" class="control-label">Full Name</label>
+                        <input type="text" id="firstname1" class="form-control">
+                        <span class="material-input"></span></div>
+                </div>
+                <div class="col-md-3 cls select-id">
+                    <select id="select1" class="form-control google-select-box">
+                        <option>All categories</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="col-md-2 cls">
+                    <div class="form-group label-floating is-empty">
+                        <label class="control-label" for="location">Location</label>
+                        <input type="email" id="location" class="form-control" style="color: #fff !important;">
+                        <span class="material-input"></span></div>
+                    <a href="googlemap.html#"><i class="material-icons google-gps-icon"> gps_fixed</i></a>
+                </div>
+                <div class="col-md-3 cls">
+                    <div class="rangeidiv">
+                        <p class="pdis">Distance (Mile):</p>
+                        <output></output>
+                        <input type="range" min="0" max="50" data-rangeSlider>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-default filter-now">Filter Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--google-input closed-->
+    <!--browse by category start-->
+    <section class="browse">
+        <div class="container">
+            <h1 class="browse-h">Browse by Category</h1>
+            <p class="browse-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+            <div class="browse-category">
+                <ul class="list-inline li-magrin">
+                    <li>
+                        <div class="col-md-4">
+                            <div class="browse-icon-div1">
+                                <i class="material-icons browse-i">location_city</i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="browse-type-h">Real Estate</h2>
+                            <ul class="browse-type-ul">
+                                <li>
+                                    <a href="googlemap.html#"> For Sale</a><sup>368</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Land & Estates</a><sup>33</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">To Rent</a><sup>56</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">To Share</a><sup>8</sup></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4">
+                            <div class="browse-icon-div2">
+                                <i class="material-icons browse-i">time_to_leave</i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="browse-type-h">Automotive</h2>
+                            <ul class="browse-type-ul">
+                                <li>
+                                    <a href="googlemap.html#">Auto Parts</a><sup>368</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Compervanc</a><sup>33</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Cars</a><sup>56</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Motorbikes</a><sup>8</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Vans & Trucks</a><sup>51</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Wanted</a><sup>3</sup></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4">
+                            <div class="browse-icon-div3">
+                                <i class="material-icons browse-i">room_service</i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="browse-type-h">Restaurant</h2>
+                            <ul class="browse-type-ul">
+                                <li>
+                                    <a href="googlemap.html#">Cafe or Bistro</a><sup>368</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Fast Causal</a><sup>33</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Fast Food</a><sup>56</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Fine Drink</a><sup>8</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Food Truck</a><sup>92</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Restaurant Buffet</a><sup>51</sup></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4">
+                            <div class="browse-icon-div4">
+                                <i class="material-icons browse-i">work</i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="browse-type-h">Jobs</h2>
+                            <ul class="browse-type-ul">
+                                <li>
+                                    <a href="googlemap.html#">Accountancy</a><sup>368</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Apprenticeships</a><sup>33</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Banking</a><sup>56</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Managment</a><sup>8</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Secretarial & PA</a><sup>92</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Voluntary Work</a><sup>51</sup></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4">
+                            <div class="browse-icon-div5">
+                                <i class="material-icons browse-i">shopping_basket</i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="browse-type-h">Shopping</h2>
+                            <ul class="browse-type-ul">
+                                <li>
+                                    <a href="googlemap.html#">Accessories</a><sup>368</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Appliances</a><sup>33</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Audio & Stereo</a> <sup>56</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Decorations </a><sup>8</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">IT & Software</a><sup>92</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Kids Stuff</a><sup>51</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Studio Equipment</a><sup>3</sup></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4">
+                            <div class="browse-icon-div6">
+                                <i class="material-icons browse-i">time_to_leave</i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="browse-type-h">
+                                <a href="googlemap.html#">Hotels & Travel</a>
+                            </h2>
+                            <ul class="browse-type-ul">
+                                <li>
+                                    <a href="googlemap.html#">Artists</a><sup>368</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Associations</a><sup>33</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Classes</a><sup>56</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Events & Nightlife</a><sup>8</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Hotel Stuff</a><sup>92</sup></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4">
+                            <div class="browse-icon-div7">
+                                <i class="material-icons browse-i">pets</i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="browse-type-h">Pets</h2>
+                            <ul class="browse-type-ul">
+                                <li>
+                                    <a href="googlemap.html#">Birds</a><sup>368</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Cats</a><sup>33</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Dogs</a><sup>56</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Equipment</a><sup>8</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Exotics</a><sup>92</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Fish</a><sup>51</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Missing & Found</a><sup>3</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Pets for Sale</a><sup>76</sup></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-4">
+                            <div class="browse-icon-div8">
+                                <i class="material-icons browse-i">settings</i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <h2 class="browse-type-h">Services</h2>
+                            <ul class="browse-type-ul">
+                                <li>
+                                    <a href="googlemap.html#">Computers</a><sup>368</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Clothing</a><sup>33</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Childcare</a><sup>56</sup></li>
+                                <li>
+                                    <a href="googlemap.html#">Business</a><sup>8</sup></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--browse by category closed-->
+    <!--featured offer start-->
+    <section class="featured-offer">
+        <div class="container">
+            <h1 class="browse-h">Featured Offers</h1>
+            <p class="browse-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="offers-slider">
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image1.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>Furnished Semi-Detached House For Sale</h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Bedrooms: <span>3</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Bathrooms: <span>2</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Type: <span>Residential</span></li>
+                                        <li>
+                                            <img src="images/agent/agent1.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$3,286,532</span>
+                                    <label>Antonio Collins</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image2.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="automotive_gridlist.html"> Volvo XC90 For Sale Urgentzly Scratch Less</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Make: <span>Volvo</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Year: <span>2013</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Mileage: <span>87000</span></li>
+                                        <li>
+                                            <img src="images/agent/agent2.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$26,500</span>
+                                    <label>Victoria Summer</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image3.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="restaurant_gridlist.html">Gourmet Fresh Pizza from Mario</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Location: <span>95 South Park Avenue</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Worktime: <span>9:00 - 23:00</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Cuisine: <span>Italian</span></li>
+                                        <li>
+                                            <img src="images/agent/agent3.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$29,99</span>
+                                    <label>Daniel Doe</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image4.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="hotels_travel_gridlist.html">Elite Room for Two Persons to Miami</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Hotel Class: <span>5 Stars</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Hotel Brand: <span>Globals</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Amenities: <span>Free WiFi</span></li>
+                                        <li>
+                                            <img src="images/agent/agent4.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$5,300</span>
+                                    <label>Britney Simpson</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image1.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="real_estate_gridlist.html">Furnished Semi-Detached House For Sale</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Bedrooms: <span>3</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Bathrooms: <span>2</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Type: <span>Residential</span></li>
+                                        <li>
+                                            <img src="images/agent/agent1.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$3,286,532</span>
+                                    <label>Antonio Collins</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image2.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="automotive_gridlist.html">Volvo XC90 For Sale Urgently Scratch Less</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Make: <span>Volvo</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Year: <span>2013</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Mileage: <span>87000</span></li>
+                                        <li>
+                                            <img src="images/agent/agent2.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$26,500</span>
+                                    <label>Victoria Summer</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image3.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="restaurant_gridlist.html">Gourmet Fresh Pizza from Mario</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Location: <span>95 South Park Avenue</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Worktime: <span>9:00 - 23:00</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Cuisine: <span>Italian</span></li>
+                                        <li>
+                                            <img src="images/agent/agent3.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$29,99</span>
+                                    <label>Daniel Doe</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image4.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="hotels_travel_gridlist.html">Elite Room for Two Persons to Miami</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Hotel Class: <span>5 Stars</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Hotel Brand: <span>Globals</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Amenities: <span>Free WiFi</span></li>
+                                        <li>
+                                            <img src="images/agent/agent4.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$5,300</span>
+                                    <label>Britney Simpson</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image1.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="hotels_travel_gridlist.html">Furnished Semi-Detached House For Sale</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Bedrooms: <span>3</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Bathrooms: <span>2</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Type: <span>Residential</span></li>
+                                        <li>
+                                            <img src="images/agent/agent1.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$3,286,532</span>
+                                    <label>Antonio Collins</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image2.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="automotive_gridlist.html">Volvo XC90 For Sale Urgently Scratch Less</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Make: <span>Volvo</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Year: <span>2013</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Mileage: <span>87000</span></li>
+                                        <li>
+                                            <img src="images/agent/agent2.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$26,500</span>
+                                    <label>Victoria Summer</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image3.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="restaurant_gridlist.html">Gourmet Fresh Pizza from Mario</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Location: <span>95 South Park Avenue</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Worktime: <span>9:00 - 23:00</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Cuisine: <span>Italian</span></li>
+                                        <li>
+                                            <img src="images/agent/agent3.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$29,99</span>
+                                    <label>Daniel Doe</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image4.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="hotels_travel_gridlist.html">Elite Room for Two Persons to Miami</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Hotel Class: <span>5 Stars</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Hotel Brand: <span>Globals</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Amenities: <span>Free WiFi</span></li>
+                                        <li>
+                                            <img src="images/agent/agent4.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$5,300</span>
+                                    <label>Britney Simpson</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image1.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="hotels_travel_gridlist.html">Furnished Semi-Detached House For Sale</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Bedrooms: <span>3</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Bathrooms: <span>2</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Type: <span>Residential</span></li>
+                                        <li>
+                                            <img src="images/agent/agent1.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$3,286,532</span>
+                                    <label>Antonio Collins</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image2.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="automotive_gridlist.html">Volvo XC90 For Sale Urgently Scratch Less</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Make: <span>Volvo</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Year: <span>2013</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Mileage: <span>87000</span></li>
+                                        <li>
+                                            <img src="images/agent/agent2.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$26,500</span>
+                                    <label>Victoria Summer</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image3.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="restaurant_gridlist.html">Gourmet Fresh Pizza from Mario</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Location: <span>95 South Park Avenue</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Worktime: <span>9:00 - 23:00</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Cuisine: <span>Italian</span></li>
+                                        <li>
+                                            <img src="images/agent/agent3.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$29,99</span>
+                                    <label>Daniel Doe</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image4.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="hotels_travel_gridlist.html">Elite Room for Two Persons to Miami</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Hotel Class: <span>5 Stars</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Hotel Brand: <span>Globals</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Amenities: <span>Free WiFi</span></li>
+                                        <li>
+                                            <img src="images/agent/agent4.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$5,300</span>
+                                    <label>Britney Simpson</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="offers-box">
+                                <img src="images/featured-offer/image3.png" alt="image1" class="img-responsive">
+                                <div class="offers-small">
+                                    <h5>
+                                        <a href="hotels_travel_gridlist.html">Gourmet Fresh Pizza from Mario</a>
+                                    </h5>
+                                </div>
+                                <div class="offers-mini">
+                                    <ul class="list-unstyled">
+                                        <li><i class="material-icons">home</i> &nbsp;Location: <span>95 South Park Avenue</span></li>
+                                        <li><i class="material-icons">invert_colors</i> &nbsp;Worktime: <span>9:00 - 23:00</span></li>
+                                        <li><i class="material-icons">settings</i>&nbsp;Cuisine: <span>Italian</span></li>
+                                        <li>
+                                            <img src="images/agent/agent3.png" alt="agent" class="img-responsive pull-right">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="offers-bottom">
+                                    <span>$29,99</span>
+                                    <label>Daniel Doe</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <button class="btn btn-default show-offer-btn">Show all <span>3568</span> Offers &nbsp; <i class="material-icons">arrow_forward</i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--featured offer closed-->
+    <!--download apps-->
+    <section class="app">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="images/app/app1.png" alt="app images" class="img-responsive app-img wow zoomInLeft">
+                </div>
+                <div class="col-md-5">
+                    <h1 class="app-heading">Download the Globals App</h1>
+                    <h2 class="app-sub-heading">for Your Smartphone</h2>
+                    <div class="row">
+                        <ul class="col-xs-12 list-inline text-center ul-padding">
+                            <li><i class="fa fa-apple app-icon1"></i>
+                                <label class="app-text">ios</label>
+                            </li>
+                            <li><i class="fa fa-android app-icon"></i>
+                                <label class="app-text">Android</label>
+                            </li>
+                            <li><i class="fa fa-windows app-icon"></i>
+                                <label class="app-text">Windows</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--download apps end-->
+    <!--Leaders of Our Catalog-->
+    <section class="payment">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 googl">
+                    <h2 class="payment-heading">Leaders of Our Catalog</h2>
+                    <p class="payment-text owl-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                        <br>nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="logo-sec">
+                        <div class="item">
+                            <img src="images/sticker1.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker2.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker3.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker4.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker5.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker6.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker1.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker2.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker3.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker4.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker5.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker6.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker1.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker2.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker3.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker4.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker5.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker6.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker1.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker2.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker3.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker4.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker5.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker6.png" alt="owl-carousel">
+                        </div>
+                        <div class="item">
+                            <img src="images/sticker3.png" alt="owl-carousel">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--section6 payment-->
+    <!--follow us section-->
+    <section class="follow-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="follow-h">Follow Us in Social Networks</h1>
+                    <p class="follow-p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam. </p>
+                </div>
+                <div class="col-md-5 col-md-offset-1">
+                    <ul class="follow-icons">
+                        <!-- Follow item -->
+                        <li>
+                            <a href="googlemap.html#">
+                                <img class="img-responsive" alt="facebook-icon" src="images/icons/facebook-icon.png">
+                            </a>
+                        </li>
+                        <!-- ./Follow item -->
+                        <!-- Follow item -->
+                        <li>
+                            <a href="googlemap.html#">
+                                <img class="img-responsive" alt="twitter-icon" src="images/icons/twitter-icon.png">
+                            </a>
+                        </li>
+                        <!-- ./Follow item -->
+                        <!-- Follow item -->
+                        <li>
+                            <a href="googlemap.html#">
+                                <img class="img-responsive" alt="google-icon" src="images/icons/google-icon.png">
+                            </a>
+                        </li>
+                        <!-- ./Follow item -->
+                        <!-- Follow item -->
+                        <li>
+                            <a href="googlemap.html#">
+                                <img class="img-responsive" alt="pinterest-icon" src="images/icons/pinterest-icon.png">
+                            </a>
+                        </li>
+                        <!-- ./Follow item -->
+                        <!-- Follow item -->
+                        <li>
+                            <a href="googlemap.html#">
+                                <img class="img-responsive" alt="instagram-icon" src="images/icons/instagram-icon.png">
+                            </a>
+                        </li>
+                        <!-- ./Follow item -->
+                        <!-- Follow item -->
+                        <li>
+                            <a href="googlemap.html#">
+                                <img class="img-responsive" alt="envato-icon" src="images/icons/envato-icon.png">
+                            </a>
+                        </li>
+                        <!-- ./Follow item -->
+                        <!-- Follow item -->
+                        <li>
+                            <a href="googlemap.html#">
+                                <img class="img-responsive" alt="flicker-icon" src="images/icons/flicker-icon.png">
+                            </a>
+                        </li>
+                        <!-- ./Follow item -->
+                        <!-- Follow item -->
+                        <li>
+                            <a href="googlemap.html#">
+                                <img class="img-responsive" alt="dribbble-icon" src="images/icons/dribbble-icon.png">
+                            </a>
+                        </li>
+                        <!-- ./Follow item -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--follow us end-->
+    <!--Footer section-->
+    <footer class="footer-section hover-red">
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-4">
+                    <img src="images/footer-logo.png" alt="footer_logo" class="footer-logo-p">
+                    <p class="foot-logo-text">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.
+                        <a href="about.html" class="read-more" id="load">Read More...</a>
+                    </p>
+                    <p class="hidden foot-logo-text"> Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima.</p>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h6 class="footer-heading-p social-pad">Useful links</h6>
+                            <ol class="breadcrumb footer-copy-right">
+                                <li>
+                                    <a href="index.html" class="">Home</a>
+                                </li>
+                                <li>
+                                    <a href="googlemap.html#" class="">Forums</a>
+                                </li>
+                                <li>
+                                    <a href="googlemap.html#" class="">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="googlemap.html#" class="">Help Center</a>
+                                </li>
+                                <li>
+                                    <a href="googlemap.html#" class="">Terms of Use</a>
+                                </li>
+                                <li>
+                                    <a href="contacts.html" class="">Contacts</a>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <h6 class="footer-heading-p">Recent News</h6>
+                    <ul class="footer-news">
+                        <li class="li-hover">
+                            <h4 class="clock"><i class="mdi-action-schedule ad-clock"></i> 07 May, 2015</h4>
+                            <p class="footer-col1 footer-left">
+                                <a href="news.html"> Mirum est notare quam littera gothica, quam nunc putamus parum, anteposuerit litterarum.</a>
+                            </p>
+                        </li>
+                        <li class="li-hover">
+                            <h4 class="clock"><i class="mdi-action-schedule ad-clock"></i> 23 April, 2015</h4>
+                            <p class="footer-col1 footer-left">
+                                <a href="news.html"> Claritas est etiam processus dynamicus.</a>
+                            </p>
+                        </li>
+                        <li class="border-none li-hover">
+                            <h4 class="clock"><i class="mdi-action-schedule ad-clock"></i> 05 December, 2014</h4>
+                            <p class="footer-col1 footer-left">
+                                <a href="news.html">Eodem modo typi, qui nunc nobis videntur clari, sollemnes in futurum.</a>
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="img-footer">
+                        <div class="row dribble">
+                            <ul class="shots list-inline"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4 home_form home_sub">
+                    <h6 class="footer-heading-p">Email Newsletters</h6>
+                    <p class="footer-col1">
+                        Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.
+                    </p>
+                    <form>
+                        <div class="input-name form-group">
+                            <div class="form-group label-floating is-empty">
+                                <label for="firstname" class="control-label">FullName</label>
+                                <input type="text" id="firstname" class="form-control">
+                                <span class="material-input"></span>
+                            </div>
+                        </div>
+                        <div class="input">
+                            <div class="form-group label-floating is-empty">
+                                <label for="email" class="control-label">Email Address </label>
+                                <input type="email" class="form-control" id="email">
+                                <span class="material-input"></span></div>
+                        </div>
+                    </form>
+                    <button class="subscribe-btn btn btn-default">Subscribe Now</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <ol class="breadcrumb copy-right-box">
+                        <li>
+                            <img src="images/copyright.png" class="copyright-img" alt="copyright">&nbsp; &nbsp; &copy; </li>
+                        <li>2015 Good Investment
+                            <a href="googlemap.html#" class="">Globals</a>
+                        </li>
+                        <li>Designed by
+                            <a href="http://codecanyon.net/user/jyostna" class="">Jyostna</a>
+                        </li>
+                        <li>Only for
+                            <a href="googlemap.html#" class="">Envato Market</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer section ends-->
+    <!--Back to top button-->
+    <a href="googlemap.html#" id="back-to-top" title="Back to top" class="arrow-btn btn btn-default hover-red">
+        <i class="mdi-hardware-keyboard-arrow-up arrow-footer"></i>
+    </a>
+    <!--Back to top button end-->
+    <!--jquery file-->
+    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!--bootstrap js files-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="js/material.min.js"></script>
+    <script type="text/javascript" src="js/ripples.min.js"></script>
+    <!-- custom js file-->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!--gmap3 js fie-->
+    <script type="text/javascript" src="js/gmap3/gmap3.min.js"></script>
+    <!--tooltip js file-->
+    <script type="text/javascript" src="js/tooltip/html5tooltips.js"></script>
+    <!--owl carousel-->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/rangeSlider.js"></script>
+    <script type="text/javascript" src="js/select2.min.js"></script>
+    <script type="text/javascript" src="js/googlemap.js"></script>
+</body>
+
+</html>
